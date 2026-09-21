@@ -1,0 +1,32 @@
+{
+  "name": "ai-voice-task-manager",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "AI voice task manager. Speak, and an LLM turns it into structured tasks.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --test",
+    "db:generate": "drizzle-kit generate",
+    "db:studio": "drizzle-kit studio",
+    "check:live": "node scripts/check-realtime.mjs"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.15.0",
+    "drizzle-orm": "^0.44.0",
+    "motion": "^12.0.0",
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zod": "^3.25.0",
+    "zustand": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=20.9"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.0"
+  }
+}
