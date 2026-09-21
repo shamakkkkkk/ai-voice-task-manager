@@ -2,7 +2,7 @@
 
 A task manager you talk to. Say *"remind me to call mom tomorrow at 5pm, urgent"* and it creates the task with the right date, time and priority, stored in a SQL database. Works in Russian and English.
 
-<!-- Live demo: add your deployment URL here -->
+**Live Demo:** [https://ai-voice-task-manager-eta.vercel.app](https://ai-voice-task-manager-eta.vercel.app/)
 
 ![The app while listening: a radial spectrum around the microphone button, the phrase being recognised, and the task list](docs/en-listening.png)
 
